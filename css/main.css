@@ -3,6 +3,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,300,300italic");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
 
+/*
+General Tags
+*/
 body {
 	font-family: Lato, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 16px;
@@ -22,10 +25,37 @@ svg {
 	height: 1em;
 }
 
+/*
+nav bar
+*/
 .navbar {
 	background-color: #181C22;
 }
 
+.navbar ul {
+	list-style: none;
+}
+
+.navbar li {
+	display: inline-block;
+}
+
+/*
+header
+*/
+#header {
+	color: black;
+	padding-top: 3em;
+
+}
+
+#tagline {
+	display: none;
+}
+
+/*
+Screen sizes
+*/
 @media only screen and (min-width: 768px) {
 	body {
 		font-size: 20px;
@@ -37,5 +67,28 @@ svg {
 
 	.navbar {
 		background-color: rgba(24, 28, 34, 0.8);
+	}
+
+	#tagline {
+		display: initial;
+	}
+
+	#header {
+		color: white;
+		background-image: url("img/background-sm.jpg");
+		text-align: right;
+		min-height: 550px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	#header {
+		background-image: url("img/background-md.jpg");
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	#header {
+		background-image: url("img/background-lg.jpg");
 	}
 }
