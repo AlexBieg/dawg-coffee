@@ -68,6 +68,7 @@ header
 	color: black;
 	padding-top: 3em;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #tagline {
@@ -80,6 +81,8 @@ Headline
 
 #headline {
 	font-style: italic;
+	text-align: center;
+	background-color: #dbdce3;
 }
 
 #headline svg {
@@ -87,6 +90,10 @@ Headline
 	height: 1.5em;
 	margin-bottom: 1em;
 	fill: #D87E28;
+}
+
+#map img {
+	border-radius: 5px;
 }
 
 /*
@@ -129,7 +136,7 @@ Screen sizes
 	}
 
 	#headline svg {
-		display: initial;
+		display: inline-block;
 	}
 }
 
