@@ -42,8 +42,12 @@ nav bar
 	margin-bottom: .5em;
 }
 
-.navbar a, .navbar svg {
+.navbar a {
 	color: white;
+}
+
+.navbar svg {
+	fill: white;
 }
 
 /*
