@@ -97,6 +97,7 @@ Cafe
 #cafe {
 	text-align: center;
 	background-color: #dbdce3;
+	padding: 20px;
 }
 
 #cafe svg {
