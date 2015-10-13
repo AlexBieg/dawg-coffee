@@ -146,6 +146,18 @@ Story
 }
 
 /*
+Footer
+*/
+
+footer {
+	border-top: 3px solid #D87E28;
+	background-color: #afb3c2;
+	font-size: 12px;
+	padding-top: 1em;
+	clear: both;
+}
+
+/*
 Screen sizes
 */
 @media only screen and (min-width: 768px) {
@@ -190,6 +202,10 @@ Screen sizes
 
 	#story img {
 		max-height: 400px;
+	}
+
+	#svg-attribution {
+		text-align: right;
 	}
 }
 
