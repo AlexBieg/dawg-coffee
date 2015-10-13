@@ -99,6 +99,10 @@ Cafe
 	background-color: #dbdce3;
 }
 
+#cafe svg {
+	display: inline-block
+}
+
 #map img {
 	border-radius: 5px;
 }
