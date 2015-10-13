@@ -82,7 +82,6 @@ Headline
 #headline {
 	font-style: italic;
 	text-align: center;
-	background-color: #dbdce3;
 }
 
 #headline svg {
@@ -90,6 +89,14 @@ Headline
 	height: 1.5em;
 	margin-bottom: 1em;
 	fill: #D87E28;
+}
+
+/*
+Cafe
+*/
+#cafe {
+	text-align: center;
+	background-color: #dbdce3;
 }
 
 #map img {
