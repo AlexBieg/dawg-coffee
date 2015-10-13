@@ -39,6 +39,7 @@ nav bar
 .navbar ul {
 	list-style: none;
 	padding-left: 15px;
+	margin-bottom: 0px;
 }
 
 .navbar li {
