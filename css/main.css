@@ -30,7 +30,6 @@ nav bar
 */
 .navbar {
 	background-color: #181C22;
-	color: white;
 }
 
 .navbar ul {
@@ -41,6 +40,10 @@ nav bar
 	display: inline-block;
 	margin-top: .5em;
 	margin-bottom: .5em;
+}
+
+.navbar a {
+	color: white;
 }
 
 /*
