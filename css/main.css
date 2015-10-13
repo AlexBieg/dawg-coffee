@@ -75,6 +75,21 @@ header
 }
 
 /*
+Headline
+*/
+
+#headline {
+	font-style: italic;
+	text-align: center;
+}
+
+#headline svg {
+	display: none;
+	height: 1.5em;
+	margin-bottom: 1em;
+}
+
+/*
 Screen sizes
 */
 @media only screen and (min-width: 768px) {
@@ -104,6 +119,10 @@ Screen sizes
 		background-image: url("../img/background-sm.jpg");
 		text-align: right;
 		min-height: 550px;
+	}
+
+	#headline svg {
+		display: initial;
 	}
 }
 
