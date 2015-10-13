@@ -67,7 +67,7 @@ header
 #header {
 	color: black;
 	padding-top: 3em;
-
+	background-repeat: no-repeat;
 }
 
 #tagline {
