@@ -130,9 +130,15 @@ dd {
 Story
 */
 
+#story {
+	background-color: #dbdce3;
+}
+
 #story img {
 	float: right;
 	border-radius: 5px;
+	max-height: 300px;
+	margin-left: 1em;
 }
 
 /*
@@ -176,6 +182,10 @@ Screen sizes
 
 	#headline svg {
 		display: inline-block;
+	}
+
+	#story img {
+		max-height: 400px;
 	}
 }
 
